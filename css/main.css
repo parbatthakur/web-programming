@@ -1,0 +1,178 @@
+body
+{
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	color:#636363;
+}
+.cl
+{
+	font-size:0; 
+	line-height:0; 
+	clear:both; 
+	display:block; 
+	height:5px;
+}
+
+.left, .alignleft { float:left; display:inline; }
+.right, .alignright { float:right; display:inline; }
+
+.shell
+{
+	width:980px;
+	padding:10px;
+	margin:auto;
+	background:#fff;
+}
+
+#header
+{
+	height:60px;
+	position:relative;
+	background:#6699FF;
+}
+
+#logo
+{
+	width:250px;
+	height:40px;
+	float:left;
+	margin-left:10px;	
+}
+
+#logo a { display: block; height: 60px; width:195px;font-family: Verdana,bold,sans-serif;font-size:25px;color:#fff;text-decoration:none;line-height: 80px;background:url(.././img/logo.png);}
+
+#navigation { float:right; white-space:nowrap; }
+#navigation ul{ list-style-type: none; height:40px; font-weight: bold; float:left; margin-top:12px; margin-bottom:0px;}
+#navigation ul li{ float:left; display:inline; margin-right:3px;}
+#navigation ul li a{ float:left; height:40px; line-height:40px; text-decoration: none; color:#fff; padding:0 15px;}
+#navigation ul li a.active,
+#navigation ul li a:hover{ background:#fff; color:#B22222; }
+
+#cart { float:right; width:160px; top:0; right:0; height:49px; background:#1A3FAB; color:#fff; padding:11px 10px 0 10px; white-space:nowrap; line-height:20px;}
+a.cart-link { color:#fff; background:url(.././img/cart-link.gif) no-repeat 0 0; padding:0 0 0 32px; text-decoration: none;}
+a.cart-link:hover { text-decoration: underline;}
+
+#main
+{
+	10px 0 0 0;
+}
+
+#content
+{
+	float:right;
+	width:745px;
+}
+
+#sidebar
+{
+	float:left;
+	width:220px;
+}
+
+#footer { height:40px; background:#ebebeb; white-space:nowrap; padding:5px 15px 5px 15px; color:#7b7b7b;}
+#footer a{ color:#7b7b7b; text-decoration: none;}
+#footer a:hover{ color:#000;}
+#footer span{ padding:0 2px;}
+
+#login
+{
+	width:220px;
+	float:left;
+	border-style:solid;
+	border-width: 0px 2px 2px 2px;
+}
+
+#login_form{ margin-left:5px; margin-bottom:5px;}
+
+h4{ width:220px; background:#636363; color:#fff;font-family: Verdana; height:25px; text-align:center; font-size:14px; margin-top:0px;}
+
+#adslider
+{
+	height:310px; 
+	position:relative; 
+	border: #dedede solid 0px; 
+}
+.fproducts {}
+.fproducts ul{ list-style-type: none; padding-left:0px;margin-top:20px;}
+.fproducts ul li{ position:relative; padding:1px; border:solid 1px #dedede; float:left; width:235px; margin-right:13px; height:380px;}
+.fproducts ul li:last-child{ margin-right:0px; }
+
+.fproducts-info{ width:235px; padding:0px;}
+.featured{ height:290px; width:235px;}
+.ftitle{margin-bottom:0px; background:#B22222; width:235px; text-transform:uppercase;}
+.ftext{margin-bottom:10px; margin-top:10px; margin-left:3px;}
+.fprice{color:#B22222; text-align:left; margin-left:3px; background:#fff;}
+
+/*-----loggedin------*/
+
+#add_item
+{
+	width:300px;
+	border:1px;
+	margin-left:10px;
+	float:left;
+}
+#items_stock
+{
+	width:300px;
+	float:right;
+}
+
+#items_stock th{ background:#636363; color:#fff;font-family: Verdana; width:40px;}
+/*----orders----*/
+#orders
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#orders th{ background:#636363; color:#fff;font-family: Verdana; width:50px; font-size:10px;}
+#orders td{width:50px; text-align:center;}
+/*----Perfumes----*/
+.perfumelist{}
+.perfumelist ul{ list-style-type: none; padding-left:0px; margin-top:5px; margin-bottom:1px; height:260px;}
+.perfumelist ul li{ position:relative; padding:1px; border:solid 1px #dedede; float:left; width:175px; margin-right:9px; height:255px;}
+
+.product-info{width:175px;padding:0px;}
+.listed{height:218px; width:174px;}
+.ltitle{margin-bottom:0px; background:#B22222; width:175px; float:left; font-family:Verdana; font-size:10px; color:#fff; margin-top:0px; text-align:center;}
+.lprice{color:#B22222; text-align:left; margin-left:3px; font-family:Verdana; font-size:10px; margin-top:1px;}
+
+.brand_name{border-bottom:1px solid #636363; color:#fff;}
+.brand{color:#fff; width:150px; margin:0px; background:#636363;}
+
+#choose
+{
+	width:220px;
+	float:left;
+	border-style:solid;
+	border-width: 0px 2px 2px 2px;
+	margin-top:5px;
+}
+/*----Selected----*/
+#image
+{
+	border:1px solid #dedede;
+	width:290px;
+	height:350px;
+	float:left;
+	padding:1px;
+}
+#customerinfo
+{
+	float:right;
+}
+#productinfo
+{
+	width:175px;
+	padding:2px;
+	margin-left:5px;
+	float:left;
+}
+#contact {width:325px; margin-right:auto; margin-left:auto;}
+
+.product_name{color:#B22222; font-family:Verdana; font-size:16px; font-weight:bold;text-transform:uppercase;}
+
+.logout{text-decoration:none; font-size:12px; font-family:"Trebuchet MS", Arial, sans-serif; color:#fff;}
+.button{border:1px solid #636363; background:#636363; color:#fff;}
